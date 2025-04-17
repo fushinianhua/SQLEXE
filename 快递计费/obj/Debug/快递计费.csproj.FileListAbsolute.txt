@@ -1,0 +1,10 @@
+C:\Users\辛鹏\Desktop\快递计费\bin\Debug\快递计费.exe.config
+C:\Users\辛鹏\Desktop\快递计费\bin\Debug\快递计费.exe
+C:\Users\辛鹏\Desktop\快递计费\bin\Debug\快递计费.pdb
+C:\Users\辛鹏\Desktop\快递计费\obj\Debug\快递计费.csproj.AssemblyReference.cache
+C:\Users\辛鹏\Desktop\快递计费\obj\Debug\快递计费.Form1.resources
+C:\Users\辛鹏\Desktop\快递计费\obj\Debug\快递计费.Properties.Resources.resources
+C:\Users\辛鹏\Desktop\快递计费\obj\Debug\快递计费.csproj.GenerateResource.cache
+C:\Users\辛鹏\Desktop\快递计费\obj\Debug\快递计费.csproj.CoreCompileInputs.cache
+C:\Users\辛鹏\Desktop\快递计费\obj\Debug\快递计费.exe
+C:\Users\辛鹏\Desktop\快递计费\obj\Debug\快递计费.pdb
