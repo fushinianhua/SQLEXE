@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\\u8F9B\u9E4F\\Desktop\\\u5FEB\u9012\u8BA1\u8D39\\",
+  "WorkspaceRootPath": "D:\\\u8F6F\u4EF6\\Repository\\SQLEXE\\\u5FEB\u9012\u8BA1\u8D39\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{716B5920-E303-40B4-BE19-DD0123B03691}|\u5FEB\u9012\u8BA1\u8D39.csproj|c:\\users\\\u8F9B\u9E4F\\desktop\\\u5FEB\u9012\u8BA1\u8D39\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{716B5920-E303-40B4-BE19-DD0123B03691}|\u5FEB\u9012\u8BA1\u8D39.csproj|d:\\\u8F6F\u4EF6\\repository\\sqlexe\\\u5FEB\u9012\u8BA1\u8D39\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{716B5920-E303-40B4-BE19-DD0123B03691}|\u5FEB\u9012\u8BA1\u8D39.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{716B5920-E303-40B4-BE19-DD0123B03691}|\u5FEB\u9012\u8BA1\u8D39.csproj|d:\\\u8F6F\u4EF6\\repository\\sqlexe\\\u5FEB\u9012\u8BA1\u8D39\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{716B5920-E303-40B4-BE19-DD0123B03691}|\u5FEB\u9012\u8BA1\u8D39.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,11 +34,24 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\\u8F6F\u4EF6\\Repository\\SQLEXE\\\u5FEB\u9012\u8BA1\u8D39\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\\u8F6F\u4EF6\\Repository\\SQLEXE\\\u5FEB\u9012\u8BA1\u8D39\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAswC4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T17:11:00.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "C:\\Users\\\u8F9B\u9E4F\\Desktop\\\u5FEB\u9012\u8BA1\u8D39\\Form1.cs",
+              "DocumentMoniker": "D:\\\u8F6F\u4EF6\\Repository\\SQLEXE\\\u5FEB\u9012\u8BA1\u8D39\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\\u8F9B\u9E4F\\Desktop\\\u5FEB\u9012\u8BA1\u8D39\\Form1.cs [\u8BBE\u8BA1]",
+              "ToolTip": "D:\\\u8F6F\u4EF6\\Repository\\SQLEXE\\\u5FEB\u9012\u8BA1\u8D39\\Form1.cs [\u8BBE\u8BA1]",
               "RelativeToolTip": "Form1.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-17T01:08:21.233Z",

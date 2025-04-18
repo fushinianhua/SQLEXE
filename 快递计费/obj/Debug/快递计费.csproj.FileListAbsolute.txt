@@ -8,3 +8,13 @@ C:\Users\辛鹏\Desktop\快递计费\obj\Debug\快递计费.csproj.GenerateResou
 C:\Users\辛鹏\Desktop\快递计费\obj\Debug\快递计费.csproj.CoreCompileInputs.cache
 C:\Users\辛鹏\Desktop\快递计费\obj\Debug\快递计费.exe
 C:\Users\辛鹏\Desktop\快递计费\obj\Debug\快递计费.pdb
+D:\软件\Repository\SQLEXE\快递计费\bin\Debug\快递计费.exe.config
+D:\软件\Repository\SQLEXE\快递计费\bin\Debug\快递计费.exe
+D:\软件\Repository\SQLEXE\快递计费\bin\Debug\快递计费.pdb
+D:\软件\Repository\SQLEXE\快递计费\obj\Debug\快递计费.csproj.AssemblyReference.cache
+D:\软件\Repository\SQLEXE\快递计费\obj\Debug\快递计费.Form1.resources
+D:\软件\Repository\SQLEXE\快递计费\obj\Debug\快递计费.Properties.Resources.resources
+D:\软件\Repository\SQLEXE\快递计费\obj\Debug\快递计费.csproj.GenerateResource.cache
+D:\软件\Repository\SQLEXE\快递计费\obj\Debug\快递计费.csproj.CoreCompileInputs.cache
+D:\软件\Repository\SQLEXE\快递计费\obj\Debug\快递计费.exe
+D:\软件\Repository\SQLEXE\快递计费\obj\Debug\快递计费.pdb
