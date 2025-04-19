@@ -30,6 +30,15 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
+            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripLabel2 = new System.Windows.Forms.ToolStripLabel();
+            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripLabel3 = new System.Windows.Forms.ToolStripLabel();
+            this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripLabel4 = new System.Windows.Forms.ToolStripLabel();
+            this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripLabel5 = new System.Windows.Forms.ToolStripLabel();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.基础设置ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.计费方案ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -40,15 +49,6 @@
             this.前台收件ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.物料领用ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.帮助ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
-            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripLabel2 = new System.Windows.Forms.ToolStripLabel();
-            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripLabel3 = new System.Windows.Forms.ToolStripLabel();
-            this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripLabel4 = new System.Windows.Forms.ToolStripLabel();
-            this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripLabel5 = new System.Windows.Forms.ToolStripLabel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
@@ -65,7 +65,7 @@
             this.toolStripButton9 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton10 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton11 = new System.Windows.Forms.ToolStripButton();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
@@ -78,7 +78,7 @@
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.toolStrip2.SuspendLayout();
-            this.flowLayoutPanel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -98,82 +98,9 @@
             this.toolStripLabel5});
             this.toolStrip1.Location = new System.Drawing.Point(0, 849);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(1229, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(1416, 25);
             this.toolStrip1.TabIndex = 0;
             this.toolStrip1.Text = "toolStrip1";
-            // 
-            // menuStrip1
-            // 
-            this.menuStrip1.AutoSize = false;
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.基础设置ToolStripMenuItem,
-            this.计费方案ToolStripMenuItem,
-            this.导入数据ToolStripMenuItem,
-            this.运费计算ToolStripMenuItem,
-            this.月结款ToolStripMenuItem,
-            this.统计分析ToolStripMenuItem,
-            this.前台收件ToolStripMenuItem,
-            this.物料领用ToolStripMenuItem,
-            this.帮助ToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1229, 35);
-            this.menuStrip1.TabIndex = 1;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
-            // 基础设置ToolStripMenuItem
-            // 
-            this.基础设置ToolStripMenuItem.Name = "基础设置ToolStripMenuItem";
-            this.基础设置ToolStripMenuItem.Size = new System.Drawing.Size(68, 21);
-            this.基础设置ToolStripMenuItem.Text = "基础设置";
-            // 
-            // 计费方案ToolStripMenuItem
-            // 
-            this.计费方案ToolStripMenuItem.Name = "计费方案ToolStripMenuItem";
-            this.计费方案ToolStripMenuItem.Size = new System.Drawing.Size(68, 21);
-            this.计费方案ToolStripMenuItem.Text = "计费方案";
-            // 
-            // 导入数据ToolStripMenuItem
-            // 
-            this.导入数据ToolStripMenuItem.Name = "导入数据ToolStripMenuItem";
-            this.导入数据ToolStripMenuItem.Size = new System.Drawing.Size(68, 21);
-            this.导入数据ToolStripMenuItem.Text = "导入数据";
-            // 
-            // 运费计算ToolStripMenuItem
-            // 
-            this.运费计算ToolStripMenuItem.Name = "运费计算ToolStripMenuItem";
-            this.运费计算ToolStripMenuItem.Size = new System.Drawing.Size(68, 21);
-            this.运费计算ToolStripMenuItem.Text = "运费计算";
-            // 
-            // 月结款ToolStripMenuItem
-            // 
-            this.月结款ToolStripMenuItem.Name = "月结款ToolStripMenuItem";
-            this.月结款ToolStripMenuItem.Size = new System.Drawing.Size(56, 21);
-            this.月结款ToolStripMenuItem.Text = "月结款";
-            // 
-            // 统计分析ToolStripMenuItem
-            // 
-            this.统计分析ToolStripMenuItem.Name = "统计分析ToolStripMenuItem";
-            this.统计分析ToolStripMenuItem.Size = new System.Drawing.Size(68, 21);
-            this.统计分析ToolStripMenuItem.Text = "统计分析";
-            // 
-            // 前台收件ToolStripMenuItem
-            // 
-            this.前台收件ToolStripMenuItem.Name = "前台收件ToolStripMenuItem";
-            this.前台收件ToolStripMenuItem.Size = new System.Drawing.Size(68, 21);
-            this.前台收件ToolStripMenuItem.Text = "前台收件";
-            // 
-            // 物料领用ToolStripMenuItem
-            // 
-            this.物料领用ToolStripMenuItem.Name = "物料领用ToolStripMenuItem";
-            this.物料领用ToolStripMenuItem.Size = new System.Drawing.Size(68, 21);
-            this.物料领用ToolStripMenuItem.Text = "物料领用";
-            // 
-            // 帮助ToolStripMenuItem
-            // 
-            this.帮助ToolStripMenuItem.Name = "帮助ToolStripMenuItem";
-            this.帮助ToolStripMenuItem.Size = new System.Drawing.Size(44, 21);
-            this.帮助ToolStripMenuItem.Text = "帮助";
             // 
             // toolStripLabel1
             // 
@@ -234,6 +161,79 @@
             this.toolStripLabel5.Size = new System.Drawing.Size(120, 22);
             this.toolStripLabel5.Text = "剩余票数  0";
             this.toolStripLabel5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.AutoSize = false;
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.基础设置ToolStripMenuItem,
+            this.计费方案ToolStripMenuItem,
+            this.导入数据ToolStripMenuItem,
+            this.运费计算ToolStripMenuItem,
+            this.月结款ToolStripMenuItem,
+            this.统计分析ToolStripMenuItem,
+            this.前台收件ToolStripMenuItem,
+            this.物料领用ToolStripMenuItem,
+            this.帮助ToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(1416, 35);
+            this.menuStrip1.TabIndex = 1;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // 基础设置ToolStripMenuItem
+            // 
+            this.基础设置ToolStripMenuItem.Name = "基础设置ToolStripMenuItem";
+            this.基础设置ToolStripMenuItem.Size = new System.Drawing.Size(68, 31);
+            this.基础设置ToolStripMenuItem.Text = "基础设置";
+            // 
+            // 计费方案ToolStripMenuItem
+            // 
+            this.计费方案ToolStripMenuItem.Name = "计费方案ToolStripMenuItem";
+            this.计费方案ToolStripMenuItem.Size = new System.Drawing.Size(68, 31);
+            this.计费方案ToolStripMenuItem.Text = "计费方案";
+            // 
+            // 导入数据ToolStripMenuItem
+            // 
+            this.导入数据ToolStripMenuItem.Name = "导入数据ToolStripMenuItem";
+            this.导入数据ToolStripMenuItem.Size = new System.Drawing.Size(68, 31);
+            this.导入数据ToolStripMenuItem.Text = "导入数据";
+            // 
+            // 运费计算ToolStripMenuItem
+            // 
+            this.运费计算ToolStripMenuItem.Name = "运费计算ToolStripMenuItem";
+            this.运费计算ToolStripMenuItem.Size = new System.Drawing.Size(68, 31);
+            this.运费计算ToolStripMenuItem.Text = "运费计算";
+            // 
+            // 月结款ToolStripMenuItem
+            // 
+            this.月结款ToolStripMenuItem.Name = "月结款ToolStripMenuItem";
+            this.月结款ToolStripMenuItem.Size = new System.Drawing.Size(56, 31);
+            this.月结款ToolStripMenuItem.Text = "月结款";
+            // 
+            // 统计分析ToolStripMenuItem
+            // 
+            this.统计分析ToolStripMenuItem.Name = "统计分析ToolStripMenuItem";
+            this.统计分析ToolStripMenuItem.Size = new System.Drawing.Size(68, 31);
+            this.统计分析ToolStripMenuItem.Text = "统计分析";
+            // 
+            // 前台收件ToolStripMenuItem
+            // 
+            this.前台收件ToolStripMenuItem.Name = "前台收件ToolStripMenuItem";
+            this.前台收件ToolStripMenuItem.Size = new System.Drawing.Size(68, 31);
+            this.前台收件ToolStripMenuItem.Text = "前台收件";
+            // 
+            // 物料领用ToolStripMenuItem
+            // 
+            this.物料领用ToolStripMenuItem.Name = "物料领用ToolStripMenuItem";
+            this.物料领用ToolStripMenuItem.Size = new System.Drawing.Size(68, 31);
+            this.物料领用ToolStripMenuItem.Text = "物料领用";
+            // 
+            // 帮助ToolStripMenuItem
+            // 
+            this.帮助ToolStripMenuItem.Name = "帮助ToolStripMenuItem";
+            this.帮助ToolStripMenuItem.Size = new System.Drawing.Size(44, 31);
+            this.帮助ToolStripMenuItem.Text = "帮助";
             // 
             // panel1
             // 
@@ -342,7 +342,7 @@
             this.toolStripButton11});
             this.toolStrip2.Location = new System.Drawing.Point(0, 35);
             this.toolStrip2.Name = "toolStrip2";
-            this.toolStrip2.Size = new System.Drawing.Size(1229, 30);
+            this.toolStrip2.Size = new System.Drawing.Size(1416, 30);
             this.toolStrip2.Stretch = true;
             this.toolStrip2.TabIndex = 2;
             this.toolStrip2.Text = "toolStrip2";
@@ -383,19 +383,20 @@
             this.toolStripButton11.Size = new System.Drawing.Size(52, 27);
             this.toolStripButton11.Text = "个人";
             // 
-            // flowLayoutPanel1
+            // panel2
             // 
-            this.flowLayoutPanel1.BackColor = System.Drawing.Color.Gray;
-            this.flowLayoutPanel1.Controls.Add(this.tabControl1);
-            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(200, 65);
-            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(1029, 784);
-            this.flowLayoutPanel1.TabIndex = 8;
+            this.panel2.Controls.Add(this.tabControl1);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel2.Location = new System.Drawing.Point(200, 65);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1216, 784);
+            this.panel2.TabIndex = 8;
             // 
             // tabControl1
             // 
+            this.tabControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Controls.Add(this.tabPage3);
@@ -410,9 +411,9 @@
             this.tabControl1.Margin = new System.Windows.Forms.Padding(0);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1026, 827);
+            this.tabControl1.Size = new System.Drawing.Size(1216, 784);
             this.tabControl1.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
-            this.tabControl1.TabIndex = 1;
+            this.tabControl1.TabIndex = 2;
             // 
             // tabPage1
             // 
@@ -422,7 +423,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 29);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1018, 794);
+            this.tabPage1.Size = new System.Drawing.Size(1208, 751);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "首页";
             // 
@@ -431,7 +432,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 29);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1018, 748);
+            this.tabPage2.Size = new System.Drawing.Size(1199, 794);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "生成月结款";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -440,7 +441,7 @@
             // 
             this.tabPage3.Location = new System.Drawing.Point(4, 29);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(1018, 748);
+            this.tabPage3.Size = new System.Drawing.Size(1199, 794);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "导出账单";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -449,7 +450,7 @@
             // 
             this.tabPage4.Location = new System.Drawing.Point(4, 29);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(1018, 748);
+            this.tabPage4.Size = new System.Drawing.Size(1199, 794);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "结款单管理";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -458,7 +459,7 @@
             // 
             this.tabPage5.Location = new System.Drawing.Point(4, 29);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Size = new System.Drawing.Size(1018, 748);
+            this.tabPage5.Size = new System.Drawing.Size(1199, 794);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "tabPage5";
             this.tabPage5.UseVisualStyleBackColor = true;
@@ -467,7 +468,7 @@
             // 
             this.tabPage6.Location = new System.Drawing.Point(4, 29);
             this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Size = new System.Drawing.Size(1018, 748);
+            this.tabPage6.Size = new System.Drawing.Size(1199, 794);
             this.tabPage6.TabIndex = 5;
             this.tabPage6.Text = "tabPage6";
             this.tabPage6.UseVisualStyleBackColor = true;
@@ -476,7 +477,7 @@
             // 
             this.tabPage7.Location = new System.Drawing.Point(4, 29);
             this.tabPage7.Name = "tabPage7";
-            this.tabPage7.Size = new System.Drawing.Size(1018, 748);
+            this.tabPage7.Size = new System.Drawing.Size(1199, 794);
             this.tabPage7.TabIndex = 6;
             this.tabPage7.Text = "tabPage7";
             this.tabPage7.UseVisualStyleBackColor = true;
@@ -486,8 +487,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1229, 874);
-            this.Controls.Add(this.flowLayoutPanel1);
+            this.ClientSize = new System.Drawing.Size(1416, 874);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.toolStrip2);
             this.Controls.Add(this.toolStrip1);
@@ -503,7 +504,7 @@
             this.panel1.ResumeLayout(false);
             this.toolStrip2.ResumeLayout(false);
             this.toolStrip2.PerformLayout();
-            this.flowLayoutPanel1.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
             this.tabControl1.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -547,7 +548,7 @@
         private System.Windows.Forms.ToolStripButton toolStripButton9;
         private System.Windows.Forms.ToolStripButton toolStripButton10;
         private System.Windows.Forms.ToolStripButton toolStripButton11;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;

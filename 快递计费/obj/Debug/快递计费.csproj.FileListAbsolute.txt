@@ -18,3 +18,13 @@ D:\软件\Repository\SQLEXE\快递计费\obj\Debug\快递计费.csproj.GenerateR
 D:\软件\Repository\SQLEXE\快递计费\obj\Debug\快递计费.csproj.CoreCompileInputs.cache
 D:\软件\Repository\SQLEXE\快递计费\obj\Debug\快递计费.exe
 D:\软件\Repository\SQLEXE\快递计费\obj\Debug\快递计费.pdb
+D:\Github_project\SQLEXE\快递计费\bin\Debug\快递计费.exe.config
+D:\Github_project\SQLEXE\快递计费\bin\Debug\快递计费.exe
+D:\Github_project\SQLEXE\快递计费\bin\Debug\快递计费.pdb
+D:\Github_project\SQLEXE\快递计费\obj\Debug\快递计费.csproj.AssemblyReference.cache
+D:\Github_project\SQLEXE\快递计费\obj\Debug\快递计费.Form1.resources
+D:\Github_project\SQLEXE\快递计费\obj\Debug\快递计费.Properties.Resources.resources
+D:\Github_project\SQLEXE\快递计费\obj\Debug\快递计费.csproj.GenerateResource.cache
+D:\Github_project\SQLEXE\快递计费\obj\Debug\快递计费.csproj.CoreCompileInputs.cache
+D:\Github_project\SQLEXE\快递计费\obj\Debug\快递计费.exe
+D:\Github_project\SQLEXE\快递计费\obj\Debug\快递计费.pdb
