@@ -3,31 +3,20 @@
   "WorkspaceRootPath": "D:\\Github_project\\SQLEXE\\\u5FEB\u9012\u8BA1\u8D39\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{716B5920-E303-40B4-BE19-DD0123B03691}|\u5FEB\u9012\u8BA1\u8D39.csproj|d:\\github_project\\sqlexe\\\u5FEB\u9012\u8BA1\u8D39\\\u7A97\u4F53\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{716B5920-E303-40B4-BE19-DD0123B03691}|\u5FEB\u9012\u8BA1\u8D39.csproj|solutionrelative:\u7A97\u4F53\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{716B5920-E303-40B4-BE19-DD0123B03691}|\u5FEB\u9012\u8BA1\u8D39.csproj|d:\\github_project\\sqlexe\\\u5FEB\u9012\u8BA1\u8D39\\\u4EE3\u7801\\resourcehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{716B5920-E303-40B4-BE19-DD0123B03691}|\u5FEB\u9012\u8BA1\u8D39.csproj|solutionrelative:\u4EE3\u7801\\resourcehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{716B5920-E303-40B4-BE19-DD0123B03691}|\u5FEB\u9012\u8BA1\u8D39.csproj|d:\\github_project\\sqlexe\\\u5FEB\u9012\u8BA1\u8D39\\\u7A97\u4F53\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{716B5920-E303-40B4-BE19-DD0123B03691}|\u5FEB\u9012\u8BA1\u8D39.csproj|solutionrelative:\u7A97\u4F53\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{716B5920-E303-40B4-BE19-DD0123B03691}|\u5FEB\u9012\u8BA1\u8D39.csproj|D:\\Github_project\\SQLEXE\\\u5FEB\u9012\u8BA1\u8D39\\\u7A97\u4F53\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{716B5920-E303-40B4-BE19-DD0123B03691}|\u5FEB\u9012\u8BA1\u8D39.csproj|d:\\github_project\\sqlexe\\\u5FEB\u9012\u8BA1\u8D39\\\u7A97\u4F53\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{716B5920-E303-40B4-BE19-DD0123B03691}|\u5FEB\u9012\u8BA1\u8D39.csproj|solutionrelative:\u7A97\u4F53\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|\u5FEB\u9012\u8BA1\u8D39||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{716B5920-E303-40B4-BE19-DD0123B03691}|\u5FEB\u9012\u8BA1\u8D39.csproj|D:\\Github_project\\SQLEXE\\\u5FEB\u9012\u8BA1\u8D39\\\u7A97\u4F53\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{716B5920-E303-40B4-BE19-DD0123B03691}|\u5FEB\u9012\u8BA1\u8D39.csproj|solutionrelative:\u7A97\u4F53\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{716B5920-E303-40B4-BE19-DD0123B03691}|\u5FEB\u9012\u8BA1\u8D39.csproj|D:\\Github_project\\SQLEXE\\\u5FEB\u9012\u8BA1\u8D39\\\u4EE3\u7801\\confighelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{716B5920-E303-40B4-BE19-DD0123B03691}|\u5FEB\u9012\u8BA1\u8D39.csproj|solutionrelative:\u4EE3\u7801\\confighelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{716B5920-E303-40B4-BE19-DD0123B03691}|\u5FEB\u9012\u8BA1\u8D39.csproj|D:\\Github_project\\SQLEXE\\\u5FEB\u9012\u8BA1\u8D39\\\u7A97\u4F53\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{716B5920-E303-40B4-BE19-DD0123B03691}|\u5FEB\u9012\u8BA1\u8D39.csproj|solutionrelative:\u7A97\u4F53\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{716B5920-E303-40B4-BE19-DD0123B03691}|\u5FEB\u9012\u8BA1\u8D39.csproj|d:\\github_project\\sqlexe\\\u5FEB\u9012\u8BA1\u8D39\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
-      "RelativeMoniker": "D:0:0:{716B5920-E303-40B4-BE19-DD0123B03691}|\u5FEB\u9012\u8BA1\u8D39.csproj|solutionrelative:properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+      "AbsoluteMoniker": "D:0:0:{716B5920-E303-40B4-BE19-DD0123B03691}|\u5FEB\u9012\u8BA1\u8D39.csproj|D:\\Github_project\\SQLEXE\\\u5FEB\u9012\u8BA1\u8D39\\\u4EE3\u7801\\resourcehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{716B5920-E303-40B4-BE19-DD0123B03691}|\u5FEB\u9012\u8BA1\u8D39.csproj|solutionrelative:\u4EE3\u7801\\resourcehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,22 +26,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainForm.cs",
-              "DocumentMoniker": "D:\\Github_project\\SQLEXE\\\u5FEB\u9012\u8BA1\u8D39\\\u7A97\u4F53\\MainForm.cs",
-              "RelativeDocumentMoniker": "\u7A97\u4F53\\MainForm.cs",
-              "ToolTip": "D:\\Github_project\\SQLEXE\\\u5FEB\u9012\u8BA1\u8D39\\\u7A97\u4F53\\MainForm.cs",
-              "RelativeToolTip": "\u7A97\u4F53\\MainForm.cs",
-              "ViewState": "AgIAAKAAAAAAAAAAAIA3wK8AAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T17:11:00.203Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
@@ -68,15 +43,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ResourceHelper.cs",
-              "DocumentMoniker": "D:\\Github_project\\SQLEXE\\\u5FEB\u9012\u8BA1\u8D39\\\u4EE3\u7801\\ResourceHelper.cs",
-              "RelativeDocumentMoniker": "\u4EE3\u7801\\ResourceHelper.cs",
-              "ToolTip": "D:\\Github_project\\SQLEXE\\\u5FEB\u9012\u8BA1\u8D39\\\u4EE3\u7801\\ResourceHelper.cs",
-              "RelativeToolTip": "\u4EE3\u7801\\ResourceHelper.cs",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAQwGoAAAAAAAAAAAAAAA==",
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "D:\\Github_project\\SQLEXE\\\u5FEB\u9012\u8BA1\u8D39\\\u7A97\u4F53\\MainForm.cs",
+              "RelativeDocumentMoniker": "\u7A97\u4F53\\MainForm.cs",
+              "ToolTip": "D:\\Github_project\\SQLEXE\\\u5FEB\u9012\u8BA1\u8D39\\\u7A97\u4F53\\MainForm.cs",
+              "RelativeToolTip": "\u7A97\u4F53\\MainForm.cs",
+              "ViewState": "AgIAAPgAAAAAAAAAAAAQwAUBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T07:01:54.732Z",
+              "WhenOpened": "2025-04-18T17:11:00.203Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainForm.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\Github_project\\SQLEXE\\\u5FEB\u9012\u8BA1\u8D39\\\u7A97\u4F53\\MainForm.cs",
+              "RelativeDocumentMoniker": "\u7A97\u4F53\\MainForm.cs",
+              "ToolTip": "D:\\Github_project\\SQLEXE\\\u5FEB\u9012\u8BA1\u8D39\\\u7A97\u4F53\\MainForm.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "\u7A97\u4F53\\MainForm.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T09:20:30.809Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
             },
             {
               "$type": "Document",
@@ -86,47 +73,23 @@
               "RelativeDocumentMoniker": "\u7A97\u4F53\\MainForm.Designer.cs",
               "ToolTip": "D:\\Github_project\\SQLEXE\\\u5FEB\u9012\u8BA1\u8D39\\\u7A97\u4F53\\MainForm.Designer.cs",
               "RelativeToolTip": "\u7A97\u4F53\\MainForm.Designer.cs",
-              "ViewState": "AgIAAP8AAAAAAAAAAAAAABABAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAcwFMAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T07:00:43.617Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "\u5FEB\u9012\u8BA1\u8D39",
-              "DocumentMoniker": "D:\\Github_project\\SQLEXE\\\u5FEB\u9012\u8BA1\u8D39\\\u5FEB\u9012\u8BA1\u8D39.csproj",
-              "RelativeDocumentMoniker": "\u5FEB\u9012\u8BA1\u8D39.csproj",
-              "ToolTip": "D:\\Github_project\\SQLEXE\\\u5FEB\u9012\u8BA1\u8D39\\\u5FEB\u9012\u8BA1\u8D39.csproj",
-              "RelativeToolTip": "\u5FEB\u9012\u8BA1\u8D39.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-04-26T06:47:56.839Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ConfigHelper.cs",
-              "DocumentMoniker": "D:\\Github_project\\SQLEXE\\\u5FEB\u9012\u8BA1\u8D39\\\u4EE3\u7801\\ConfigHelper.cs",
-              "RelativeDocumentMoniker": "\u4EE3\u7801\\ConfigHelper.cs",
-              "ToolTip": "D:\\Github_project\\SQLEXE\\\u5FEB\u9012\u8BA1\u8D39\\\u4EE3\u7801\\ConfigHelper.cs",
-              "RelativeToolTip": "\u4EE3\u7801\\ConfigHelper.cs",
-              "ViewState": "AgIAAPcAAAAAAAAAAAAiwAoBAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T02:59:55.518Z",
+              "WhenOpened": "2025-04-28T07:38:37.526Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "MainForm.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "D:\\Github_project\\SQLEXE\\\u5FEB\u9012\u8BA1\u8D39\\\u7A97\u4F53\\MainForm.cs",
-              "RelativeDocumentMoniker": "\u7A97\u4F53\\MainForm.cs",
-              "ToolTip": "D:\\Github_project\\SQLEXE\\\u5FEB\u9012\u8BA1\u8D39\\\u7A97\u4F53\\MainForm.cs [\u8BBE\u8BA1]",
-              "RelativeToolTip": "\u7A97\u4F53\\MainForm.cs [\u8BBE\u8BA1]",
+              "Title": "ResourceHelper.cs",
+              "DocumentMoniker": "D:\\Github_project\\SQLEXE\\\u5FEB\u9012\u8BA1\u8D39\\\u4EE3\u7801\\ResourceHelper.cs",
+              "RelativeDocumentMoniker": "\u4EE3\u7801\\ResourceHelper.cs",
+              "ToolTip": "D:\\Github_project\\SQLEXE\\\u5FEB\u9012\u8BA1\u8D39\\\u4EE3\u7801\\ResourceHelper.cs",
+              "RelativeToolTip": "\u4EE3\u7801\\ResourceHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T01:08:21.233Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
+              "WhenOpened": "2025-04-26T07:01:54.732Z",
+              "EditorCaption": ""
             }
           ]
         }

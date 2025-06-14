@@ -106,77 +106,87 @@ namespace 快递计费
 
         #endregion Tabcontrol重绘
 
-        private bool isBackButtonEnabled = false;
+        private bool isNavigating = false; // 新增标志位，用于标识是否处于导航状态
+
+        // 使用属性封装按钮状态，简化更新逻辑
+        private bool IsBackEnabled
+        {
+            get => 后退.Enabled;
+            set
+            {
+                后退.Enabled = value;
+                后退.Image = value ? ResourceHelper.GetImageResource("后退ON.png")
+                                  : ResourceHelper.GetImageResource("后退OFF.png");
+            }
+        }
+
+        private bool IsForwardEnabled
+        {
+            get => 前进.Enabled;
+            set
+            {
+                前进.Enabled = value;
+                前进.Image = value ? ResourceHelper.GetImageResource("前进ON.png")
+                                  : ResourceHelper.GetImageResource("前进OFF.png");
+            }
+        }
 
         private void 后退_Click(object sender, EventArgs e)
         {
-            try
-            {
-                // 如果后退栈为空，直接返回
-                if (backStack.Count == 0)
-                {
-                    return;
-                }
-                // 调用导航方法
-                Navigate(backStack, forwardStack);
-            }
-            catch (Exception)
-            {
-                throw;
-            }
+            if (backStack.Count == 0) return;
+            Navigate(backStack, forwardStack);
+            UpdateButtonStates(); // 统一更新按钮状态
         }
 
         private void 前进_Click(object sender, EventArgs e)
         {
-            try
-            {
-                // 如果前进栈为空，直接返回
-                if (forwardStack.Count == 0)
-                {
-                    return;
-                }
-                // 调用导航方法
-                Navigate(forwardStack, backStack);
-            }
-            catch (Exception)
-            {
-                throw;
-            }
+            if (forwardStack.Count == 0) return;
+            Navigate(forwardStack, backStack);
+            UpdateButtonStates(); // 统一更新按钮状态
         }
 
         private void tabControl1_Selected(object sender, TabControlEventArgs e)
         {
-            // 如果当前选中索引不为初始值，并且新选择的 Tab 与当前 Tab 不同
-            if (currentSelectedTabIndex != -1 && currentSelectedTabIndex != e.TabPageIndex)
+            if (isNavigating)
             {
-                // 更新上一次选中索引
-                previousSelectedTabIndex = currentSelectedTabIndex;
-                // 将当前选中索引压入后退栈
-                backStack.Push(currentSelectedTabIndex);
+                currentSelectedTabIndex = e.TabPageIndex;
+                return;
             }
-            // 更新当前选中索引
+
+            if (currentSelectedTabIndex != -1)
+            {
+                backStack.Push(currentSelectedTabIndex);
+                IsForwardEnabled = false; // 手动切换时强制禁用前进
+            }
             currentSelectedTabIndex = e.TabPageIndex;
+            forwardStack.Clear();
+            UpdateButtonStates(); // 统一更新按钮状态
         }
 
         private void Navigate(Stack<int> sourceStack, Stack<int> targetStack)
         {
             try
             {
-                // 从源栈弹出索引
-                int selectedIndex = sourceStack.Pop();
-                // 将索引压入目标栈
-                targetStack.Push(selectedIndex);
-
-                // 设置 TabControl 的选中索引
-                tabControl1.SelectedIndex = selectedIndex;
-                forwardStack.Push(previousSelectedTabIndex);
+                isNavigating = true;
+                int currentIndex = tabControl1.SelectedIndex;
+                targetStack.Push(currentIndex); // 记录导航起点
+                tabControl1.SelectedIndex = sourceStack.Pop();
             }
             catch (Exception ex)
             {
-                // 记录异常信息，这里简单输出到控制台，实际可使用日志框架
-                Console.WriteLine($"导航时发生异常: {ex.Message}");
-                // 可以根据需求添加更多的异常处理逻辑，如显示错误消息框等
+                Console.WriteLine($"导航错误: {ex.Message}");
             }
+            finally
+            {
+                isNavigating = false;
+            }
+        }
+
+        // 统一更新按钮状态的方法
+        private void UpdateButtonStates()
+        {
+            IsBackEnabled = backStack.Count > 0;
+            IsForwardEnabled = forwardStack.Count > 0;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -238,6 +248,16 @@ namespace 快递计费
                 MessageBox.Show("未找到指定的连接字符串。");
                 Console.WriteLine("未找到指定的连接字符串。");
             }
+        }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+            backStack.Push(tabControl1.SelectedIndex);
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("当前选择的标签索引为：" + tabControl1.SelectedIndex);
         }
     }
 }

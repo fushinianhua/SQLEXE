@@ -28,3 +28,6 @@ D:\Github_project\SQLEXE\快递计费\obj\Debug\快递计费.csproj.CoreCompileI
 D:\Github_project\SQLEXE\快递计费\obj\Debug\快递计费.exe
 D:\Github_project\SQLEXE\快递计费\obj\Debug\快递计费.pdb
 D:\Github_project\SQLEXE\快递计费\obj\Debug\快递计费.MainForm.resources
+D:\Github_project\SQLEXE\快递计费\bin\Debug\控制按钮.pdb
+D:\Github_project\SQLEXE\快递计费\obj\Debug\快递计费.csproj.Up2Date
+D:\Github_project\SQLEXE\快递计费\bin\Debug\控制按钮.dll

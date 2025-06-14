@@ -59,5 +59,25 @@ namespace 快递计费.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap _55ed0d6fe1aa488dabfa7285da885112_png_tplv_a9rns2rl98_24_720_720 {
+            get {
+                object obj = ResourceManager.GetObject("55ed0d6fe1aa488dabfa7285da885112.png~tplv-a9rns2rl98-24_720_720", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap 业务员管理 {
+            get {
+                object obj = ResourceManager.GetObject("业务员管理", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
